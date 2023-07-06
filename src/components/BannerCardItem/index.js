@@ -1,7 +1,7 @@
 // Write your code here.
 import './index.css'
 
-const CardList = props => {
+const BannerCardItem = props => {
   const {bannerList} = props
   const {headerText, description, className} = bannerList
 
@@ -18,4 +18,4 @@ const CardList = props => {
   )
 }
 
-export default CardList
+export default BannerCardItem
